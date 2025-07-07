@@ -1,0 +1,131 @@
+/* Theme Styles */
+.theme-light {
+  --bg-primary: #faf7f0;
+  --bg-secondary: #ffffff;
+  --text-primary: #2d3748;
+  --text-secondary: #4a5568;
+  --text-accent: #1a365d;
+  --border-color: rgba(212, 175, 55, 0.2);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --accent-color: #d4af37;
+  --accent-hover: #f1c40f;
+}
+
+.theme-dark {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --text-primary: #e2e8f0;
+  --text-secondary: #a0aec0;
+  --text-accent: #d4af37;
+  --border-color: rgba(212, 175, 55, 0.3);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --accent-color: #d4af37;
+  --accent-hover: #f1c40f;
+}
+
+.theme-sepia {
+  --bg-primary: #f4f1e8;
+  --bg-secondary: #f8f5ec;
+  --text-primary: #3c2e1a;
+  --text-secondary: #5a4a36;
+  --text-accent: #2d1f0f;
+  --border-color: rgba(139, 69, 19, 0.2);
+  --shadow-color: rgba(60, 46, 26, 0.1);
+  --accent-color: #8b4513;
+  --accent-hover: #a0522d;
+}
+
+/* Apply theme variables */
+.book.theme-light,
+.book.theme-dark,
+.book.theme-sepia {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.book.theme-light .page,
+.book.theme-dark .page,
+.book.theme-sepia .page {
+  background: var(--bg-primary);
+  border-right-color: var(--border-color);
+}
+
+.book.theme-light .page-title,
+.book.theme-dark .page-title,
+.book.theme-sepia .page-title {
+  color: var(--text-accent);
+  border-bottom-color: var(--accent-color);
+}
+
+.book.theme-light .page-content,
+.book.theme-dark .page-content,
+.book.theme-sepia .page-content {
+  color: var(--text-primary);
+}
+
+.book.theme-light .page-caption,
+.book.theme-dark .page-caption,
+.book.theme-sepia .page-caption {
+  color: var(--text-secondary);
+}
+
+.book.theme-light .page-number,
+.book.theme-dark .page-number,
+.book.theme-sepia .page-number {
+  color: var(--text-secondary);
+}
+
+.book.theme-light .book-spine,
+.book.theme-dark .book-spine,
+.book.theme-sepia .book-spine {
+  background: linear-gradient(to bottom, transparent 0%, var(--border-color) 20%, var(--border-color) 80%, transparent 100%);
+}
+
+/* Dark theme specific adjustments */
+.book.theme-dark {
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.5),
+    0 10px 20px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(212, 175, 55, 0.3);
+}
+
+.book.theme-dark::before {
+  background: 
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><defs><pattern id="dark-paper" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="rgba(255,255,255,0.02)"/><circle cx="5" cy="5" r="0.5" fill="rgba(255,255,255,0.03)"/><circle cx="15" cy="15" r="0.3" fill="rgba(255,255,255,0.02)"/></pattern></defs><rect width="400" height="300" fill="url(%23dark-paper)"/></svg>');
+}
+
+.book.theme-dark .code-block {
+  background: #0d1117;
+  border-left-color: var(--accent-color);
+}
+
+/* Sepia theme specific adjustments */
+.book.theme-sepia {
+  box-shadow: 
+    0 20px 40px rgba(60, 46, 26, 0.3),
+    0 10px 20px rgba(60, 46, 26, 0.2),
+    inset 0 0 0 1px rgba(139, 69, 19, 0.2);
+}
+
+.book.theme-sepia::before {
+  background: 
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><defs><pattern id="sepia-paper" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="rgba(139,69,19,0.05)"/><circle cx="5" cy="5" r="0.5" fill="rgba(139,69,19,0.08)"/><circle cx="15" cy="15" r="0.3" fill="rgba(139,69,19,0.05)"/></pattern></defs><rect width="400" height="300" fill="url(%23sepia-paper)"/></svg>');
+}
+
+.book.theme-sepia .code-block {
+  background: #2d1f0f;
+  color: #f4f1e8;
+  border-left-color: var(--accent-color);
+}
+
+/* Theme transition animations */
+.book,
+.page,
+.page-title,
+.page-content,
+.page-caption,
+.page-number,
+.book-spine,
+.code-block {
+  transition: all 0.3s ease;
+}

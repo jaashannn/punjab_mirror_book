@@ -1,0 +1,126 @@
+:root {
+  font-family: 'Inter', 'Georgia', serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #f1c40f 0%, #d4af37 100%);
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(212, 175, 55, 0.3);
+  color: inherit;
+}
+
+::-moz-selection {
+  background: rgba(212, 175, 55, 0.3);
+  color: inherit;
+}
+
+/* Focus styles */
+button:focus,
+input:focus {
+  outline: 2px solid #d4af37;
+  outline-offset: 2px;
+}
+
+/* Loading animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Smooth transitions */
+* {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Print styles */
+@media print {
+  .navigation-container,
+  .table-of-contents,
+  .search-container {
+    display: none !important;
+  }
+  
+  .book-container {
+    background: white !important;
+    padding: 0 !important;
+  }
+  
+  .book {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+  
+  .page {
+    break-inside: avoid;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .book {
+    border: 2px solid #000 !important;
+  }
+  
+  .page {
+    border-right: 2px solid #000 !important;
+  }
+  
+  .nav-button {
+    border: 2px solid #000 !important;
+  }
+}

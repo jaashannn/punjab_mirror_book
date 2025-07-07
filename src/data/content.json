@@ -1,0 +1,129 @@
+{
+  "book": {
+    "title": "ਹਿੰਸਕ ਮੌਤਾਂ ਅਤੇ ਜਬਰੀ ਗੁਮਸ਼ੁਦਗੀਆਂ ਦੌਰਾਨ Counterinsurgency in Punjab, India",
+    "subtitle": "A Preliminary Quantitative Analysis",
+    "author": "Romesh Silva, Jasmine Marwaha, Jeff Klingner",
+    "description": "ਇਹ report ਪੰਜਾਬ ਵਿੱਚ 1984 ਤੋਂ 1995 ਦੇ conflict period ਦੌਰਾਨ reported fatal violence ਅਤੇ enforced disappearances ਦਾ quantitative analysis ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ, ਜੋ Ensaaf ਅਤੇ Benetech ਦੇ Human Rights Data Analysis Group ਵੱਲੋਂ ਸੰਯੁਕਤ ਤੌਰ ’ਤੇ ਤਿਆਰ ਕੀਤੀ ਗਈ ਹੈ।",
+    "totalPages": 12,
+    "chapters": [
+      {
+        "id": "chapter-1",
+        "title": "Executive Summary",
+        "startPage": 3,
+        "endPage": 6
+      },
+      {
+        "id": "chapter-2",
+        "title": "Introduction",
+        "startPage": 7,
+        "endPage": 8
+      },
+      {
+        "id": "chapter-3",
+        "title": "Background",
+        "startPage": 9,
+        "endPage": 12
+      }
+    ],
+    "pages": [
+      {
+        "id": 1,
+        "type": "title",
+        "content": {
+          "title": "ਹਿੰਸਕ ਮੌਤਾਂ ਅਤੇ ਜਬਰੀ ਗੁਮਸ਼ੁਦਗੀਆਂ ਦੌਰਾਨ Counterinsurgency in Punjab, India",
+          "subtitle": "A Preliminary Quantitative Analysis",
+          "author": "Romesh Silva, Jasmine Marwaha, Jeff Klingner",
+          "text": "Human Rights Data Analysis Group\nHuman Rights Program\nBenetech\nEnsaaf\nJanuary 26, 2009\n\nContact:\nThe Benetech Initiative\nhttp://www.benetech.org\ntel: +1 650-475-5440\nEmail: info@benetech.org\nEnsaaf, Inc.\nhttp://www.ensaaf.org\ntel: +1 510-796-1190\nEmail: info@ensaaf.org"
+        }
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "content": {
+          "title": "Table of Contents",
+          "text": "1 Executive Summary........................ 3\n2 Introduction.............................. 7\n3 Background............................... 9\n  3.1 Historical Context..................... 9\n  3.2 The Body Count: A Scoring System...... 10\n4 Motivation for this Quantitative Analysis... 11\n5 Observed Patterns in Reported Lethal Violence in Punjab... 12"
+        }
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "content": {
+          "title": "Preface",
+          "text": "ਕਈ ਦਹਾਕਿਆਂ ਤੋਂ ਪੰਜਾਬ ਵਿੱਚ Indian state agencies ਵੱਲੋਂ ਕੀਤੇ ਗਏ human rights violations ਦੀ documentation ਵਿੱਚ ਸ਼ਾਮਲ ਰਹਿਣ ਕਾਰਨ, ਮੈਂ ਮਹਿਸੂਸ ਕੀਤਾ ਹੈ ਕਿ data ਦੇ quantitative issues ਵੱਲ ਘੱਟ ਧਿਆਨ ਦੇਣ ਨਾਲ abuses of power, rule of law ਲਈ ਉਹਨਾਂ ਦੀ ਮਹੱਤਤਾ, ਅਤੇ meaningful reforms ਦੀਆਂ ਚੁਣੌਤੀਆਂ ਬਾਰੇ discourse ਦੀ quality ਨੂੰ ਗੰਭੀਰ ਅਸਰ ਪਿਆ ਹੈ।\n\nState agencies ਦੁਆਰਾ lethal abuse of authority ਦੇ ਮੁਕਾਬਲੇ ਵਿੱਚ, human rights activists ਨੇ quantitative issues ਦੀ ਮਹੱਤਤਾ ਨੂੰ ਘੱਟ ਕਰਕੇ ਵੇਖਿਆ। Human rights organizations ਹਰ reported incident of abuse ਤੱਕ ਨਹੀਂ ਪਹੁੰਚ ਸਕੀਆਂ ਅਤੇ ਅਕਸਰ reports ਦੇ sources ਅਤੇ ਉਹਨਾਂ ਦੀ reliability ਨੂੰ verify ਨਹੀਂ ਕਰ ਸਕੀਆਂ।"
+        }
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "content": {
+          "title": "Preface (Continued)",
+          "text": "ਇਸ ਲਈ ਉਹਨਾਂ ਨੇ ਆਪਣੇ ਆਪ ਨੂੰ ਇਹ ਸੋਚ ਕੇ ਤਸੱਲੀ ਦਿੱਤੀ ਕਿ “ਮਹੱਤਵਪੂਰਨ ਹੈ individual abuses ਦੀ nature ਨੂੰ ਸਮਝਣਾ ਅਤੇ ਇਸ ਦੀ ਸੱਚਾਈ ਸਥਾਪਤ ਕਰਨ ਲਈ demonstrable evidence। Quantitative patterns ਨੂੰ capture ਅਤੇ convey ਕਰਨਾ human rights ਦੇ normative standards ਲਈ ਜ਼ਰੂਰੀ ਨਹੀਂ।”\n\nQualitative over quantitative approach ਦੀ ਇਹ preference ਨੇ ਇੱਕ “Platonic” conviction (ਜਾਂ bias) ਨੂੰ ਲੁਕਾਇਆ, ਜਿਸ ਵਿੱਚ ਇਹ ਮੰਨਿਆ ਗਿਆ ਸੀ ਕਿ state, at least in theory, Constitution ਵਿੱਚ enshrined human rights principles ਨੂੰ ਮੰਨਦਾ ਹੈ।"
+        }
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "content": {
+          "title": "Executive Summary",
+          "text": "ਇਹ report ਪੰਜਾਬ ਵਿੱਚ 1984 ਤੋਂ 1995 ਦੇ conflict period ਦੌਰਾਨ reported fatal violence ਦਾ analysis ਕਰਦੀ ਹੈ। Ensaaf ਅਤੇ Benetech ਦੇ Human Rights Data Analysis Group (HRDAG) ਵੱਲੋਂ ਕੀਤੀ ਗਈ ਇਹ preliminary, descriptive statistical analysis systematic ਅਤੇ verifiable quantitative research ਦੀ ਵਰਤੋਂ ਕਰਕੇ Indian government ਦੇ Punjab counterinsurgency ਨੂੰ successful campaign with isolated human rights violations ਵਜੋਂ portrayal ਨੂੰ interrogate ਕਰਦੀ ਹੈ। ਸਾਡੇ empirical findings ਦਰਸਾਉਂਦੇ ਹਨ ਕਿ early 1990s ਵਿੱਚ coordinated counterinsurgency operations ਦੀ intensification ਨਾਲ state violence ਵਿੱਚ shift ਆਇਆ, ਜੋ targeted enforced disappearances ਅਤੇ extrajudicial executions ਤੋਂ large-scale ਅਤੇ systematic lethal human rights violations ਵੱਲ ਗਿਆ, ਜਿਸ ਨਾਲ mass “illegal cremations” ਵੀ ਹੋਏ।"
+        }
+      },
+      {
+        "id": 6,
+        "type": "text",
+        "content": {
+          "title": "Executive Summary (Continued)",
+          "text": "1984 ਤੋਂ 1995 ਦੌਰਾਨ government counterinsurgency operations ਦੇ ਹਿੱਸੇ ਵਜੋਂ, Indian security forces ਨੇ Sikh militants ਨੂੰ disappeared ਅਤੇ extrajudicially executed ਕੀਤਾ, ਨਾਲ ਹੀ ਉਹਨਾਂ individuals ਨੂੰ ਵੀ ਜਿਹਨਾਂ ਦਾ militancy ਨਾਲ ਕੋਈ known connection ਨਹੀਂ ਸੀ। Special counterinsurgency laws ਨੇ human rights violations ਨੂੰ facilitate ਕੀਤਾ ਅਤੇ perpetrators ਨੂੰ accountability ਤੋਂ ਬਚਾਇਆ। Government of India enforced disappearances ਅਤੇ extrajudicial executions ਨੂੰ widespread ਅਤੇ systematic ਮੰਨਣ ਤੋਂ ਇਨਕਾਰ ਕਰਦੀ ਹੈ, ਅਤੇ ਇਹ ਦਾਅਵਾ ਕਰਦੀ ਹੈ ਕਿ human rights violations war on terrorism ਵਿੱਚ unavoidable “aberrations” ਸਨ।"
+        }
+      },
+      {
+        "id": 7,
+        "type": "text",
+        "content": {
+          "title": "Executive Summary (Continued)",
+          "text": "ਹੁਣ ਤੱਕ, ਇਹ report Punjab counterinsurgency ਦੌਰਾਨ human rights violations ’ਤੇ available data ਦਾ ਸਭ ਤੋਂ comprehensive quantitative analysis ਹੈ। ਇਹ analysis ਛੇ data sets ਨੂੰ ਜੋੜਦਾ ਹੈ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ 21,000 ਤੋਂ ਵੱਧ records ਸ਼ਾਮਲ ਹਨ। Report National Human Rights Commission of India (NHRC) ਅਤੇ ਇਸ ਦੀਆਂ sub-commissions, People’s Commission on Human Rights Violations in Punjab (PCHR), ਅਤੇ Committee for Coordination on Disappearances in Punjab (CCDP) ਤੋਂ documentation ’ਤੇ draw ਕਰਦਾ ਹੈ।"
+        }
+      },
+      {
+        "id": 8,
+        "type": "text",
+        "content": {
+          "title": "Executive Summary (Continued)",
+          "text": "Authors ਨੇ 1988 ਤੋਂ 1995 ਤੱਕ Punjab ਦੇ Tribune newspaper ਦੀਆਂ reports ਅਤੇ ਛੇ municipal cremation grounds ਦੇ recovered logbooks ਦੀ ਜਾਂਚ ਕੀਤੀ। ਇਹ documentation collectively 2,059 “illegal cremations” ਨੂੰ identify ਅਤੇ document ਕਰਦੀ ਹੈ ਜਿਨ੍ਹਾਂ ਨੂੰ NHRC ਨੇ acknowledge ਕੀਤਾ, ਲਗਭਗ 2,196 victims of reported enforced disappearances ਅਤੇ extrajudicial executions ਜਿਨ੍ਹਾਂ ਨੂੰ CCDP ਅਤੇ PCHR ਨੇ document ਕੀਤਾ, Tribune ਵੱਲੋਂ reported 17,582 victims of lethal violence, ਅਤੇ municipal cremation grounds ਤੋਂ 1,484 records।"
+        }
+      },
+      {
+        "id": 9,
+        "type": "text",
+        "content": {
+          "title": "Executive Summary (Key Findings)",
+          "text": "Quantitative methods ਦੀ ਵਰਤੋਂ ਕਰਕੇ, ਇਹ report demonstrate ਕਰਦੀ ਹੈ ਕਿ lethal human rights violations ਦਾ “random” ਜਾਂ “minor aberrations” ਹੋਣਾ, ਜਿਵੇਂ Indian officials ਦਾਅਵਾ ਕਰਦੇ ਹਨ, implausible ਹੈ। Specifically, report ਨੋਟ ਕਰਦੀ ਹੈ ਕਿ:\n• Available data sources, ਜੋ substantially different social, political, ਅਤੇ legal processes ਰਾਹੀਂ collect ਕੀਤੇ ਗਏ, generally consistent ਹਨ ਕਿ enforced disappearances ਅਤੇ extrajudicial executions Punjab ਵਿੱਚ early 1990s ਵਿੱਚ overwhelmingly concentrated ਸਨ।\n• Tribune newspaper ਅਤੇ CCDP ਵੱਲੋਂ collect ਕੀਤਾ data ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ reported enforced disappearances, extrajudicial executions, ਅਤੇ encounter killings 1992 ਤੋਂ ਬਾਅਦ Amritsar district ਵਿੱਚ almost exclusively concentrated ਹੋਣ ਤੋਂ Punjab state ਦੇ almost all districts ਵਿੱਚ dispersed ਹੋ ਗਏ।"
+        }
+      },
+      {
+        "id": 10,
+        "type": "text",
+        "content": {
+          "title": "Executive Summary (Key Findings Continued)",
+          "text": "• Tribune ਵੱਲੋਂ reported information ਦਰਸਾਉਂਦੀ ਹੈ ਕਿ encounters ਦੌਰਾਨ few security officers ਦੀ ਮੌਤ reported ਹੋਈ, ਅਤੇ ਇਹ incidents, on average, alleged “militant” ਜਾਂ “civilian” ਦੀ lone killing ਨਾਲ related ਸਨ, ਜੋ qualitative findings ਨਾਲ consistent ਹੈ ਕਿ reported encounters ਅਕਸਰ faked ਸਨ।\n• November 1991 ਵਿੱਚ Operation Rakshak II ਦੀ ਸ਼ੁਰੂਆਤ ਤੋਂ ਬਾਅਦ state violence substantially ਵਧਿਆ, ਅਤੇ disappeared ਅਤੇ extrajudicially executed ਲੋਕਾਂ ਦੀਆਂ bodies next of kin ਨੂੰ notably ਘੱਟ recover ਹੋਈਆਂ।"
+        }
+      },
+      {
+        "id": 11,
+        "type": "text",
+        "content": {
+          "title": "Executive Summary (Conclusion)",
+          "text": "Future analyses, ਜੋ multiple data sources ਅਤੇ inferential statistical methods ’ਤੇ draw ਕਰਨਗੇ, Punjab ਵਿੱਚ violence ਦੀ total magnitude ਅਤੇ patterns ਨੂੰ clarify ਕਰਨਗੇ। Scientifically-defensible analysis of political violence honest dialogue ਨੂੰ enable ਕਰ ਸਕਦੀ ਹੈ ਤਾਂ ਜੋ Punjab counterinsurgency ਦੀ public understanding improve ਹੋਵੇ। Independent data sources ਨੂੰ triangulate ਕਰਕੇ ਅਤੇ reproducible scientific methods ਵਰਤਕੇ, Punjab counterinsurgency ਨਾਲ related lethal violations ਦੀ magnitude, pattern, ਅਤੇ responsibility ਬਾਰੇ questions ਨੂੰ transparently engage ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।"
+        }
+      },
+      {
+        "id": 12,
+        "type": "text",
+        "content": {
+          "title": "Disclaimer and Citation",
+          "text": "Disclaimer: The materials contained herein represent the opinions of the authors and should not be construed to be the view of the Benetech Initiative. The interpretations and conclusions are those of the authors and do not purport to represent the views of the Benetech Board of Directors, any of Benetech’s constituent projects, or the donors to Benetech.\n\nCitation: Silva, Romesh, Jasmine Marwaha & Jeff Klingner, “Violent Deaths and Enforced Disappearances During the Counterinsurgency in Punjab, India: A Preliminary Quantitative Analysis”, A Joint Report by Benetech’s Human Rights Data Analysis Group & Ensaaf, Inc. January, 2009."
+        }
+      }
+    ]
+  }
+}

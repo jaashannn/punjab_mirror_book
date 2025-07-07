@@ -1,0 +1,287 @@
+/* Book Styles - Premium Design System */
+.book-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.book-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(212, 175, 55, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.1) 0%, transparent 50%),
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.02)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.02)"/><circle cx="50" cy="10" r="0.5" fill="rgba(255,255,255,0.01)"/><circle cx="10" cy="50" r="0.5" fill="rgba(255,255,255,0.01)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  pointer-events: none;
+}
+
+.book-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.book {
+  background: #faf7f0;
+  border-radius: 8px;
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.3),
+    0 10px 20px rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px rgba(212, 175, 55, 0.2);
+  position: relative;
+  overflow: hidden;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><defs><pattern id="paper" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="rgba(139,69,19,0.02)"/><circle cx="5" cy="5" r="0.5" fill="rgba(139,69,19,0.03)"/><circle cx="15" cy="15" r="0.3" fill="rgba(139,69,19,0.02)"/></pattern></defs><rect width="400" height="300" fill="url(%23paper)"/></svg>');
+  pointer-events: none;
+  z-index: 1;
+}
+
+.book-header {
+  background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);
+  color: #1a365d;
+  padding: 1.5rem 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.book-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: 'Times New Roman', serif;
+}
+
+.book-subtitle {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0 0;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.book-content {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+
+.page-spread {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 500px;
+  position: relative;
+}
+
+.page-spread.single-page {
+  grid-template-columns: 1fr;
+}
+
+.page {
+  padding: 3rem;
+  position: relative;
+  background: #faf7f0;
+  border-right: 1px solid rgba(212, 175, 55, 0.2);
+  transition: all 0.3s ease;
+}
+
+.page:last-child {
+  border-right: none;
+}
+
+.page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.05) 50%, transparent 100%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.page:hover::before {
+  opacity: 1;
+}
+
+.page-content {
+  max-width: 100%;
+  line-height: 1.8;
+  color: #2d3748;
+  font-size: 1.1rem;
+  font-family: 'Georgia', serif;
+}
+
+.page-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+  color: #1a365d;
+  font-family: 'Times New Roman', serif;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 0.5rem;
+}
+
+.page-text {
+  margin: 0 0 1rem 0;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.page-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}
+
+.page-caption {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #4a5568;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.page-number {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 0.9rem;
+  color: #718096;
+  font-family: 'Times New Roman', serif;
+}
+
+.page-number.left {
+  left: 3rem;
+}
+
+.page-number.right {
+  right: 3rem;
+}
+
+.book-spine {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, transparent 0%, rgba(212, 175, 55, 0.3) 20%, rgba(212, 175, 55, 0.3) 80%, transparent 100%);
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.code-block {
+  background: #2d3748;
+  color: #e2e8f0;
+  padding: 1.5rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  border-left: 4px solid #d4af37;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.code-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: #d4af37;
+  font-family: 'Times New Roman', serif;
+}
+
+/* Animation classes */
+.page-turn-enter {
+  transform: perspective(1000px) rotateY(-90deg);
+  transform-origin: left center;
+}
+
+.page-turn-enter-active {
+  transform: perspective(1000px) rotateY(0deg);
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.page-turn-exit {
+  transform: perspective(1000px) rotateY(0deg);
+  transform-origin: right center;
+}
+
+.page-turn-exit-active {
+  transform: perspective(1000px) rotateY(90deg);
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .book-container {
+    padding: 1rem;
+  }
+  
+  .page-spread {
+    grid-template-columns: 1fr;
+  }
+  
+  .page {
+    padding: 2rem;
+  }
+  
+  .book-title {
+    font-size: 1.5rem;
+  }
+  
+  .page-title {
+    font-size: 1.5rem;
+  }
+  
+  .page-content {
+    font-size: 1rem;
+  }
+  
+  .book-spine {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 1.5rem;
+  }
+  
+  .book-header {
+    padding: 1rem 1.5rem;
+  }
+  
+  .book-title {
+    font-size: 1.3rem;
+  }
+  
+  .page-title {
+    font-size: 1.3rem;
+  }
+}
